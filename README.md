@@ -1,3 +1,11 @@
+![Python](https://img.shields.io/badge/-Python-F7DF1E?style=flat-square&logo=python&logoColor=black)
+![LangChain](https://img.shields.io/badge/-LangChain-3178C6?style=flat-square&logo=langchain&logoColor=white)
+![Gemini](https://img.shields.io/badge/-Gemini-8E75FF?style=flat-square&logo=googlegemini&logoColor=white)	
+![Cohere](https://img.shields.io/static/v1?style=flat-square&message=Cohere&color=339933&logo=cohere&logoColor=white&label=)
+![Mistral](https://img.shields.io/badge/-Mistral-FD6F00?style=flat-square&logo=mistralai&logoColor=white)	
+![Groq](https://img.shields.io/static/v1?style=flat-square&message=Groq&color=4285F4&logo=groq&logoColor=white&label=)	
+![OpenAI](https://custom-icon-badges.demolab.com/badge/ChatGPT-0062D3?style=flat-square&logo=openai&logoColor=white)	
+![LLAMA](https://img.shields.io/badge/-LLAMA-04100B?style=flat-square&logo=meta&logoColor=white)
 # Company Audit Pipeline 🚀
 
 A sophisticated 4-stage AI pipeline that orchestrates multiple LLMs to conduct comprehensive company analysis.
@@ -89,7 +97,7 @@ GROQ_API_KEY=your_groq_api_key
 
 ## Quick Configuration
 
-**See `MODEL_CONFIGURATION.md` for detailed setup guide.**
+**See `config/README.md` for complete documentation on model setup and customization.**
 
 Edit `config/settings.py` to choose models for each stage:
 
@@ -121,7 +129,6 @@ The script will:
 3. Display results summary
 4. Save to `output/pipeline_results_YYYYMMDD_HHMMSS.json`
 
-**See `config/MODEL_CONFIGURATION.md` for complete documentation on model setup and customization.**
 
 ## Future Enhancements
 
